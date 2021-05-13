@@ -26,6 +26,7 @@ public class myAccount_Registration {
 		// register email
 
 		PageInitializer.myAccount.emailInput.sendKeys(ConfigsReader.getProperty("newEmail"));
+		System.out.println("Golf");
 		// register password
 
 		PageInitializer.myAccount.passWordInput.sendKeys(ConfigsReader.getProperty("newPassword"));
