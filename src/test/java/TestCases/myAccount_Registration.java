@@ -1,6 +1,9 @@
 package TestCases;
 
 import java.util.concurrent.TimeUnit;
+
+
+
 import com.demoSite.utilities.CommonMethods;
 
 import org.openqa.selenium.By;
@@ -12,6 +15,9 @@ import com.demoSite.utilities.ConfigsReader;
 import com.demoSite.testBase.PageInitializer;
 
 public class myAccount_Registration {
+	
+	
+	
 
 	@BeforeTest
 	public void init() {

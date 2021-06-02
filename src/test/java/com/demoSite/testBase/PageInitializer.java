@@ -7,7 +7,7 @@ import com.demoSite.pages.shopPage;
 
 //initializes all pages class and stores references in static varibales
 //that will called/used in test classes
-public class PageInitializer {
+public class PageInitializer extends BaseClass {
 
 	public static loginPage login;
 	public static commonLocatorsPage commonLocPage;
