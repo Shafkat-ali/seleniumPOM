@@ -10,8 +10,8 @@ import io.cucumber.junit.CucumberOptions;
 
 		 plugin = { "pretty", "html:target/default-cucumber-reports", "json:target/cucumber.json" } 
 		,features = "src/test/resources/features" 
-		,glue = "src/test/java/stepDefinitions"
-		,dryRun = false 
+		,glue = "stepDefinitions"
+		,dryRun = true 
 	//	,tags = ""
 
 )
